@@ -7,12 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F00E4D521A2555E100654B8B /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00E4D511A2555E100654B8B /* Event.swift */; };
 		F09DC28F1A21A66500DDCBD5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09DC28E1A21A66500DDCBD5 /* AppDelegate.swift */; };
 		F09DC2911A21A66500DDCBD5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09DC2901A21A66500DDCBD5 /* ViewController.swift */; };
 		F09DC2941A21A66500DDCBD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F09DC2921A21A66500DDCBD5 /* Main.storyboard */; };
 		F09DC2961A21A66500DDCBD5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F09DC2951A21A66500DDCBD5 /* Images.xcassets */; };
 		F09DC2991A21A66500DDCBD5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F09DC2971A21A66500DDCBD5 /* LaunchScreen.xib */; };
 		F09DC2A51A21A66500DDCBD5 /* Mizzou_AFROTCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09DC2A41A21A66500DDCBD5 /* Mizzou_AFROTCTests.swift */; };
+		F09DC2B11A23BC4B00DDCBD5 /* MAW_icon-vector-blue_02_people_312x214.png in Resources */ = {isa = PBXBuildFile; fileRef = F09DC2B01A23BC4B00DDCBD5 /* MAW_icon-vector-blue_02_people_312x214.png */; };
+		F09DC2B31A23BCF000DDCBD5 /* roster.png in Resources */ = {isa = PBXBuildFile; fileRef = F09DC2B21A23BCF000DDCBD5 /* roster.png */; };
+		F09DC2B51A23BD9F00DDCBD5 /* calendar_icon1.png in Resources */ = {isa = PBXBuildFile; fileRef = F09DC2B41A23BD9E00DDCBD5 /* calendar_icon1.png */; };
+		F09DC2B71A23BDEB00DDCBD5 /* pen_paper_icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F09DC2B61A23BDEB00DDCBD5 /* pen_paper_icon.jpg */; };
+		F09DC2B91A23BE3E00DDCBD5 /* custom-reports.png in Resources */ = {isa = PBXBuildFile; fileRef = F09DC2B81A23BE3E00DDCBD5 /* custom-reports.png */; };
+		F09DC2BB1A23BF3300DDCBD5 /* app_type_newspaper_512px_GREY.png in Resources */ = {isa = PBXBuildFile; fileRef = F09DC2BA1A23BF3300DDCBD5 /* app_type_newspaper_512px_GREY.png */; };
+		F09DC2BD1A23BF9D00DDCBD5 /* MAW_icon-vector-blue_57_news_312x214.png in Resources */ = {isa = PBXBuildFile; fileRef = F09DC2BC1A23BF9D00DDCBD5 /* MAW_icon-vector-blue_57_news_312x214.png */; };
+		F09DC2BF1A23C08300DDCBD5 /* globe-Vista-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F09DC2BE1A23C08300DDCBD5 /* globe-Vista-icon.png */; };
+		F09DC2C11A23C17400DDCBD5 /* contact-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F09DC2C01A23C17400DDCBD5 /* contact-icon.png */; };
+		F09DC2C31A23CA1600DDCBD5 /* logo-air-force2.png in Resources */ = {isa = PBXBuildFile; fileRef = F09DC2C21A23CA1600DDCBD5 /* logo-air-force2.png */; };
+		F09DC2C51A23CA2300DDCBD5 /* title-afrotc.png in Resources */ = {isa = PBXBuildFile; fileRef = F09DC2C41A23CA2300DDCBD5 /* title-afrotc.png */; };
+		F09DC2C71A23CA2D00DDCBD5 /* logo-mu.png in Resources */ = {isa = PBXBuildFile; fileRef = F09DC2C61A23CA2D00DDCBD5 /* logo-mu.png */; };
+		F09DC2C91A23CA3500DDCBD5 /* logo-afrotc-det440.png in Resources */ = {isa = PBXBuildFile; fileRef = F09DC2C81A23CA3500DDCBD5 /* logo-afrotc-det440.png */; };
+		F09DC2CB1A23CABD00DDCBD5 /* logo-air-force.png in Resources */ = {isa = PBXBuildFile; fileRef = F09DC2CA1A23CABD00DDCBD5 /* logo-air-force.png */; };
+		F09DC2CD1A23F40200DDCBD5 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09DC2CC1A23F40200DDCBD5 /* MenuViewController.swift */; };
+		F09DC2CF1A23F69200DDCBD5 /* MenuTransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09DC2CE1A23F69200DDCBD5 /* MenuTransitionManager.swift */; };
+		F09DC2D11A24F68100DDCBD5 /* aboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09DC2D01A24F68100DDCBD5 /* aboutUsViewController.swift */; };
+		F09DC2D31A24F69000DDCBD5 /* rosterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09DC2D21A24F69000DDCBD5 /* rosterViewController.swift */; };
+		F09DC2D51A24F6B600DDCBD5 /* eventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09DC2D41A24F6B600DDCBD5 /* eventsViewController.swift */; };
+		F09DC2D71A24F6C300DDCBD5 /* ordersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09DC2D61A24F6C300DDCBD5 /* ordersViewController.swift */; };
+		F09DC2D91A24F6DD00DDCBD5 /* newsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09DC2D81A24F6DD00DDCBD5 /* newsViewController.swift */; };
+		F09DC2DB1A24F6F100DDCBD5 /* contactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09DC2DA1A24F6F100DDCBD5 /* contactViewController.swift */; };
+		F09DC2DD1A24F6FA00DDCBD5 /* passwordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09DC2DC1A24F6FA00DDCBD5 /* passwordViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +50,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F00E4D511A2555E100654B8B /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Event.swift; path = "Mizzou AFROTC/Event.swift"; sourceTree = "<group>"; };
 		F09DC2891A21A66500DDCBD5 /* Mizzou AFROTC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mizzou AFROTC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F09DC28D1A21A66500DDCBD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F09DC28E1A21A66500DDCBD5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +61,29 @@
 		F09DC29E1A21A66500DDCBD5 /* Mizzou AFROTCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mizzou AFROTCTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F09DC2A31A21A66500DDCBD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F09DC2A41A21A66500DDCBD5 /* Mizzou_AFROTCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mizzou_AFROTCTests.swift; sourceTree = "<group>"; };
+		F09DC2B01A23BC4B00DDCBD5 /* MAW_icon-vector-blue_02_people_312x214.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "MAW_icon-vector-blue_02_people_312x214.png"; path = "../../../Downloads/MAW_icon-vector-blue_02_people_312x214.png"; sourceTree = "<group>"; };
+		F09DC2B21A23BCF000DDCBD5 /* roster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = roster.png; path = ../../../Downloads/roster.png; sourceTree = "<group>"; };
+		F09DC2B41A23BD9E00DDCBD5 /* calendar_icon1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = calendar_icon1.png; path = ../../../Downloads/calendar_icon1.png; sourceTree = "<group>"; };
+		F09DC2B61A23BDEB00DDCBD5 /* pen_paper_icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = pen_paper_icon.jpg; path = ../../../Downloads/pen_paper_icon.jpg; sourceTree = "<group>"; };
+		F09DC2B81A23BE3E00DDCBD5 /* custom-reports.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "custom-reports.png"; path = "../../../Downloads/custom-reports.png"; sourceTree = "<group>"; };
+		F09DC2BA1A23BF3300DDCBD5 /* app_type_newspaper_512px_GREY.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = app_type_newspaper_512px_GREY.png; path = ../../../Downloads/app_type_newspaper_512px_GREY.png; sourceTree = "<group>"; };
+		F09DC2BC1A23BF9D00DDCBD5 /* MAW_icon-vector-blue_57_news_312x214.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "MAW_icon-vector-blue_57_news_312x214.png"; path = "../../../Downloads/MAW_icon-vector-blue_57_news_312x214.png"; sourceTree = "<group>"; };
+		F09DC2BE1A23C08300DDCBD5 /* globe-Vista-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "globe-Vista-icon.png"; path = "../../../Downloads/globe-Vista-icon.png"; sourceTree = "<group>"; };
+		F09DC2C01A23C17400DDCBD5 /* contact-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "contact-icon.png"; path = "../../../Downloads/contact-icon.png"; sourceTree = "<group>"; };
+		F09DC2C21A23CA1600DDCBD5 /* logo-air-force2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo-air-force2.png"; path = "../../../Downloads/logo-air-force2.png"; sourceTree = "<group>"; };
+		F09DC2C41A23CA2300DDCBD5 /* title-afrotc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "title-afrotc.png"; path = "../../../Downloads/title-afrotc.png"; sourceTree = "<group>"; };
+		F09DC2C61A23CA2D00DDCBD5 /* logo-mu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo-mu.png"; path = "../../../Downloads/logo-mu.png"; sourceTree = "<group>"; };
+		F09DC2C81A23CA3500DDCBD5 /* logo-afrotc-det440.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo-afrotc-det440.png"; path = "../../../Downloads/logo-afrotc-det440.png"; sourceTree = "<group>"; };
+		F09DC2CA1A23CABD00DDCBD5 /* logo-air-force.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo-air-force.png"; path = "../../../Downloads/logo-air-force.png"; sourceTree = "<group>"; };
+		F09DC2CC1A23F40200DDCBD5 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		F09DC2CE1A23F69200DDCBD5 /* MenuTransitionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuTransitionManager.swift; path = ../MenuTransitionManager.swift; sourceTree = "<group>"; };
+		F09DC2D01A24F68100DDCBD5 /* aboutUsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = aboutUsViewController.swift; sourceTree = "<group>"; };
+		F09DC2D21A24F69000DDCBD5 /* rosterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rosterViewController.swift; sourceTree = "<group>"; };
+		F09DC2D41A24F6B600DDCBD5 /* eventsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = eventsViewController.swift; sourceTree = "<group>"; };
+		F09DC2D61A24F6C300DDCBD5 /* ordersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ordersViewController.swift; sourceTree = "<group>"; };
+		F09DC2D81A24F6DD00DDCBD5 /* newsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = newsViewController.swift; sourceTree = "<group>"; };
+		F09DC2DA1A24F6F100DDCBD5 /* contactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = contactViewController.swift; sourceTree = "<group>"; };
+		F09DC2DC1A24F6FA00DDCBD5 /* passwordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = passwordViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +107,7 @@
 		F09DC2801A21A66400DDCBD5 = {
 			isa = PBXGroup;
 			children = (
+				F00E4D511A2555E100654B8B /* Event.swift */,
 				F09DC28B1A21A66500DDCBD5 /* Mizzou AFROTC */,
 				F09DC2A11A21A66500DDCBD5 /* Mizzou AFROTCTests */,
 				F09DC28A1A21A66500DDCBD5 /* Products */,
@@ -79,7 +128,16 @@
 			children = (
 				F09DC28E1A21A66500DDCBD5 /* AppDelegate.swift */,
 				F09DC2901A21A66500DDCBD5 /* ViewController.swift */,
+				F09DC2CC1A23F40200DDCBD5 /* MenuViewController.swift */,
 				F09DC2921A21A66500DDCBD5 /* Main.storyboard */,
+				F09DC2D01A24F68100DDCBD5 /* aboutUsViewController.swift */,
+				F09DC2D21A24F69000DDCBD5 /* rosterViewController.swift */,
+				F09DC2D41A24F6B600DDCBD5 /* eventsViewController.swift */,
+				F09DC2D61A24F6C300DDCBD5 /* ordersViewController.swift */,
+				F09DC2D81A24F6DD00DDCBD5 /* newsViewController.swift */,
+				F09DC2DA1A24F6F100DDCBD5 /* contactViewController.swift */,
+				F09DC2DC1A24F6FA00DDCBD5 /* passwordViewController.swift */,
+				F09DC2CE1A23F69200DDCBD5 /* MenuTransitionManager.swift */,
 				F09DC2951A21A66500DDCBD5 /* Images.xcassets */,
 				F09DC2971A21A66500DDCBD5 /* LaunchScreen.xib */,
 				F09DC28C1A21A66500DDCBD5 /* Supporting Files */,
@@ -90,6 +148,20 @@
 		F09DC28C1A21A66500DDCBD5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F09DC2BE1A23C08300DDCBD5 /* globe-Vista-icon.png */,
+				F09DC2B81A23BE3E00DDCBD5 /* custom-reports.png */,
+				F09DC2C01A23C17400DDCBD5 /* contact-icon.png */,
+				F09DC2C41A23CA2300DDCBD5 /* title-afrotc.png */,
+				F09DC2C21A23CA1600DDCBD5 /* logo-air-force2.png */,
+				F09DC2BA1A23BF3300DDCBD5 /* app_type_newspaper_512px_GREY.png */,
+				F09DC2C61A23CA2D00DDCBD5 /* logo-mu.png */,
+				F09DC2CA1A23CABD00DDCBD5 /* logo-air-force.png */,
+				F09DC2C81A23CA3500DDCBD5 /* logo-afrotc-det440.png */,
+				F09DC2BC1A23BF9D00DDCBD5 /* MAW_icon-vector-blue_57_news_312x214.png */,
+				F09DC2B41A23BD9E00DDCBD5 /* calendar_icon1.png */,
+				F09DC2B61A23BDEB00DDCBD5 /* pen_paper_icon.jpg */,
+				F09DC2B21A23BCF000DDCBD5 /* roster.png */,
+				F09DC2B01A23BC4B00DDCBD5 /* MAW_icon-vector-blue_02_people_312x214.png */,
 				F09DC28D1A21A66500DDCBD5 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -192,8 +264,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F09DC2B31A23BCF000DDCBD5 /* roster.png in Resources */,
+				F09DC2C11A23C17400DDCBD5 /* contact-icon.png in Resources */,
+				F09DC2C71A23CA2D00DDCBD5 /* logo-mu.png in Resources */,
+				F09DC2B11A23BC4B00DDCBD5 /* MAW_icon-vector-blue_02_people_312x214.png in Resources */,
+				F09DC2C31A23CA1600DDCBD5 /* logo-air-force2.png in Resources */,
+				F09DC2B71A23BDEB00DDCBD5 /* pen_paper_icon.jpg in Resources */,
 				F09DC2941A21A66500DDCBD5 /* Main.storyboard in Resources */,
+				F09DC2B91A23BE3E00DDCBD5 /* custom-reports.png in Resources */,
+				F09DC2C91A23CA3500DDCBD5 /* logo-afrotc-det440.png in Resources */,
+				F09DC2C51A23CA2300DDCBD5 /* title-afrotc.png in Resources */,
 				F09DC2991A21A66500DDCBD5 /* LaunchScreen.xib in Resources */,
+				F09DC2BB1A23BF3300DDCBD5 /* app_type_newspaper_512px_GREY.png in Resources */,
+				F09DC2BF1A23C08300DDCBD5 /* globe-Vista-icon.png in Resources */,
+				F09DC2B51A23BD9F00DDCBD5 /* calendar_icon1.png in Resources */,
+				F09DC2BD1A23BF9D00DDCBD5 /* MAW_icon-vector-blue_57_news_312x214.png in Resources */,
+				F09DC2CB1A23CABD00DDCBD5 /* logo-air-force.png in Resources */,
 				F09DC2961A21A66500DDCBD5 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -213,7 +299,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				F09DC2911A21A66500DDCBD5 /* ViewController.swift in Sources */,
+				F09DC2D31A24F69000DDCBD5 /* rosterViewController.swift in Sources */,
+				F09DC2DD1A24F6FA00DDCBD5 /* passwordViewController.swift in Sources */,
+				F09DC2D91A24F6DD00DDCBD5 /* newsViewController.swift in Sources */,
+				F00E4D521A2555E100654B8B /* Event.swift in Sources */,
+				F09DC2D11A24F68100DDCBD5 /* aboutUsViewController.swift in Sources */,
+				F09DC2D71A24F6C300DDCBD5 /* ordersViewController.swift in Sources */,
+				F09DC2DB1A24F6F100DDCBD5 /* contactViewController.swift in Sources */,
+				F09DC2D51A24F6B600DDCBD5 /* eventsViewController.swift in Sources */,
+				F09DC2CF1A23F69200DDCBD5 /* MenuTransitionManager.swift in Sources */,
 				F09DC28F1A21A66500DDCBD5 /* AppDelegate.swift in Sources */,
+				F09DC2CD1A23F40200DDCBD5 /* MenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +501,7 @@
 				F09DC2AA1A21A66500DDCBD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F09DC2AB1A21A66500DDCBD5 /* Build configuration list for PBXNativeTarget "Mizzou AFROTCTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +510,7 @@
 				F09DC2AD1A21A66500DDCBD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
