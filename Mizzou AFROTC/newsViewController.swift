@@ -16,7 +16,7 @@ class newsViewController: UIViewController {
     
     func loadURL() {
         let requestURL = NSURL(string: url)
-        let request = NSURLRequest(URL: requestURL)
+        let request = NSURLRequest(URL: requestURL!)
         webview.loadRequest(request)
         
     }

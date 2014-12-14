@@ -10,8 +10,15 @@ import UIKit
 
 class rosterViewController: UIViewController {
 
+    @IBOutlet var roster: UIWebView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        let path = NSBundle.mainBundle().pathForResource("ROSTER", ofType: "csv")
+        var url = NSURL(fileURLWithPath: path!)
+        var request = NSURLRequest(URL: url!)
+        self.roster.loadRequest(request)
+        //self.roster.scalesPageToFit = true
 
         // Do any additional setup after loading the view.
     }

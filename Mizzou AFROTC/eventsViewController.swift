@@ -16,7 +16,7 @@ class eventsViewController: UITableViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        self.events = [Event(name: "LLab 14 Dec 2" ), Event(name: "PT Dec 4-5"), Event(name: "NO LLab Dec 9"), Event(name: "NO LLab Dec 16"), Event(name: "LLab 15 Jan 20")]
+        self.events = [Event(name: "LLab 14: Dec 2" ), Event(name: "PT Dec 4-5"), Event(name: "LLab 15: Dec 9"), Event(name: "PT: Dec 11-12"), Event(name: "LLab 16: Jan 20")]
     }
 
     override func didReceiveMemoryWarning() {

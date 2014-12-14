@@ -20,7 +20,7 @@ class passwordViewController: UIViewController {
     @IBAction func submit(sender: UIButton) {
         var password:NSString = txtPassword.text
         
-        if (password.isEqualToString("1522*") ) {
+        if (password.isEqualToString("1522#") ) {
             self.performSegueWithIdentifier("passwordSegue", sender: self)
         }
         else {

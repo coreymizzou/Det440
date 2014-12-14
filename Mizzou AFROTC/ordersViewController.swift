@@ -10,8 +10,24 @@ import UIKit
 
 class ordersViewController: UIViewController {
 
+    @IBOutlet var opsOrders: UIWebView!
+    
+    var url = "http://babbage.cs.missouri.edu/~cph52b/ROTC/orders.php"
+    
+    func loadURL() {
+        let requestURL = NSURL(string: url)
+        let request = NSURLRequest(URL: requestURL!)
+        opsOrders.loadRequest(request)
+        
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        loadURL()
+        /*let path = NSBundle.mainBundle().pathForResource("OPORD%2013", ofType: "pdf")
+        var url = NSURL(fileURLWithPath: path!)
+        var request = NSURLRequest(URL: url)
+        self.opsOrders.loadRequest(request)*/
 
         // Do any additional setup after loading the view.
     }

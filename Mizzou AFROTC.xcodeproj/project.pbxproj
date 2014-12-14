@@ -17,13 +17,9 @@
 		F09DC2B11A23BC4B00DDCBD5 /* MAW_icon-vector-blue_02_people_312x214.png in Resources */ = {isa = PBXBuildFile; fileRef = F09DC2B01A23BC4B00DDCBD5 /* MAW_icon-vector-blue_02_people_312x214.png */; };
 		F09DC2B31A23BCF000DDCBD5 /* roster.png in Resources */ = {isa = PBXBuildFile; fileRef = F09DC2B21A23BCF000DDCBD5 /* roster.png */; };
 		F09DC2B51A23BD9F00DDCBD5 /* calendar_icon1.png in Resources */ = {isa = PBXBuildFile; fileRef = F09DC2B41A23BD9E00DDCBD5 /* calendar_icon1.png */; };
-		F09DC2B71A23BDEB00DDCBD5 /* pen_paper_icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F09DC2B61A23BDEB00DDCBD5 /* pen_paper_icon.jpg */; };
 		F09DC2B91A23BE3E00DDCBD5 /* custom-reports.png in Resources */ = {isa = PBXBuildFile; fileRef = F09DC2B81A23BE3E00DDCBD5 /* custom-reports.png */; };
-		F09DC2BB1A23BF3300DDCBD5 /* app_type_newspaper_512px_GREY.png in Resources */ = {isa = PBXBuildFile; fileRef = F09DC2BA1A23BF3300DDCBD5 /* app_type_newspaper_512px_GREY.png */; };
-		F09DC2BD1A23BF9D00DDCBD5 /* MAW_icon-vector-blue_57_news_312x214.png in Resources */ = {isa = PBXBuildFile; fileRef = F09DC2BC1A23BF9D00DDCBD5 /* MAW_icon-vector-blue_57_news_312x214.png */; };
 		F09DC2BF1A23C08300DDCBD5 /* globe-Vista-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F09DC2BE1A23C08300DDCBD5 /* globe-Vista-icon.png */; };
 		F09DC2C11A23C17400DDCBD5 /* contact-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F09DC2C01A23C17400DDCBD5 /* contact-icon.png */; };
-		F09DC2C31A23CA1600DDCBD5 /* logo-air-force2.png in Resources */ = {isa = PBXBuildFile; fileRef = F09DC2C21A23CA1600DDCBD5 /* logo-air-force2.png */; };
 		F09DC2C51A23CA2300DDCBD5 /* title-afrotc.png in Resources */ = {isa = PBXBuildFile; fileRef = F09DC2C41A23CA2300DDCBD5 /* title-afrotc.png */; };
 		F09DC2C71A23CA2D00DDCBD5 /* logo-mu.png in Resources */ = {isa = PBXBuildFile; fileRef = F09DC2C61A23CA2D00DDCBD5 /* logo-mu.png */; };
 		F09DC2C91A23CA3500DDCBD5 /* logo-afrotc-det440.png in Resources */ = {isa = PBXBuildFile; fileRef = F09DC2C81A23CA3500DDCBD5 /* logo-afrotc-det440.png */; };
@@ -37,6 +33,10 @@
 		F09DC2D91A24F6DD00DDCBD5 /* newsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09DC2D81A24F6DD00DDCBD5 /* newsViewController.swift */; };
 		F09DC2DB1A24F6F100DDCBD5 /* contactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09DC2DA1A24F6F100DDCBD5 /* contactViewController.swift */; };
 		F09DC2DD1A24F6FA00DDCBD5 /* passwordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09DC2DC1A24F6FA00DDCBD5 /* passwordViewController.swift */; };
+		F0A49DFB1A26604E00F838D3 /* indian-fighter-planes-wallpaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F0A49DFA1A26604E00F838D3 /* indian-fighter-planes-wallpaper.jpg */; };
+		F0A49DFD1A2670A100F838D3 /* OPORD%2013.pdf in Resources */ = {isa = PBXBuildFile; fileRef = F0A49DFC1A2670A100F838D3 /* OPORD%2013.pdf */; };
+		F0A49E001A2675C900F838D3 /* RosterPDF.pdf in Resources */ = {isa = PBXBuildFile; fileRef = F0A49DFF1A2675C900F838D3 /* RosterPDF.pdf */; };
+		F0A49E021A267B3800F838D3 /* ROSTER.csv in Resources */ = {isa = PBXBuildFile; fileRef = F0A49E011A267B3800F838D3 /* ROSTER.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,13 +64,9 @@
 		F09DC2B01A23BC4B00DDCBD5 /* MAW_icon-vector-blue_02_people_312x214.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "MAW_icon-vector-blue_02_people_312x214.png"; path = "../../../Downloads/MAW_icon-vector-blue_02_people_312x214.png"; sourceTree = "<group>"; };
 		F09DC2B21A23BCF000DDCBD5 /* roster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = roster.png; path = ../../../Downloads/roster.png; sourceTree = "<group>"; };
 		F09DC2B41A23BD9E00DDCBD5 /* calendar_icon1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = calendar_icon1.png; path = ../../../Downloads/calendar_icon1.png; sourceTree = "<group>"; };
-		F09DC2B61A23BDEB00DDCBD5 /* pen_paper_icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = pen_paper_icon.jpg; path = ../../../Downloads/pen_paper_icon.jpg; sourceTree = "<group>"; };
 		F09DC2B81A23BE3E00DDCBD5 /* custom-reports.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "custom-reports.png"; path = "../../../Downloads/custom-reports.png"; sourceTree = "<group>"; };
-		F09DC2BA1A23BF3300DDCBD5 /* app_type_newspaper_512px_GREY.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = app_type_newspaper_512px_GREY.png; path = ../../../Downloads/app_type_newspaper_512px_GREY.png; sourceTree = "<group>"; };
-		F09DC2BC1A23BF9D00DDCBD5 /* MAW_icon-vector-blue_57_news_312x214.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "MAW_icon-vector-blue_57_news_312x214.png"; path = "../../../Downloads/MAW_icon-vector-blue_57_news_312x214.png"; sourceTree = "<group>"; };
 		F09DC2BE1A23C08300DDCBD5 /* globe-Vista-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "globe-Vista-icon.png"; path = "../../../Downloads/globe-Vista-icon.png"; sourceTree = "<group>"; };
 		F09DC2C01A23C17400DDCBD5 /* contact-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "contact-icon.png"; path = "../../../Downloads/contact-icon.png"; sourceTree = "<group>"; };
-		F09DC2C21A23CA1600DDCBD5 /* logo-air-force2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo-air-force2.png"; path = "../../../Downloads/logo-air-force2.png"; sourceTree = "<group>"; };
 		F09DC2C41A23CA2300DDCBD5 /* title-afrotc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "title-afrotc.png"; path = "../../../Downloads/title-afrotc.png"; sourceTree = "<group>"; };
 		F09DC2C61A23CA2D00DDCBD5 /* logo-mu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo-mu.png"; path = "../../../Downloads/logo-mu.png"; sourceTree = "<group>"; };
 		F09DC2C81A23CA3500DDCBD5 /* logo-afrotc-det440.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo-afrotc-det440.png"; path = "../../../Downloads/logo-afrotc-det440.png"; sourceTree = "<group>"; };
@@ -84,6 +80,10 @@
 		F09DC2D81A24F6DD00DDCBD5 /* newsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = newsViewController.swift; sourceTree = "<group>"; };
 		F09DC2DA1A24F6F100DDCBD5 /* contactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = contactViewController.swift; sourceTree = "<group>"; };
 		F09DC2DC1A24F6FA00DDCBD5 /* passwordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = passwordViewController.swift; sourceTree = "<group>"; };
+		F0A49DFA1A26604E00F838D3 /* indian-fighter-planes-wallpaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "indian-fighter-planes-wallpaper.jpg"; path = "../../../Downloads/indian-fighter-planes-wallpaper.jpg"; sourceTree = "<group>"; };
+		F0A49DFC1A2670A100F838D3 /* OPORD%2013.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "OPORD%2013.pdf"; path = "../../Downloads/OPORD%2013.pdf"; sourceTree = "<group>"; };
+		F0A49DFF1A2675C900F838D3 /* RosterPDF.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = RosterPDF.pdf; path = ../../Downloads/RosterPDF.pdf; sourceTree = "<group>"; };
+		F0A49E011A267B3800F838D3 /* ROSTER.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ROSTER.csv; path = ../../Downloads/ROSTER.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +107,9 @@
 		F09DC2801A21A66400DDCBD5 = {
 			isa = PBXGroup;
 			children = (
+				F0A49E011A267B3800F838D3 /* ROSTER.csv */,
+				F0A49DFC1A2670A100F838D3 /* OPORD%2013.pdf */,
+				F0A49DFF1A2675C900F838D3 /* RosterPDF.pdf */,
 				F00E4D511A2555E100654B8B /* Event.swift */,
 				F09DC28B1A21A66500DDCBD5 /* Mizzou AFROTC */,
 				F09DC2A11A21A66500DDCBD5 /* Mizzou AFROTCTests */,
@@ -148,18 +151,15 @@
 		F09DC28C1A21A66500DDCBD5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F0A49DFA1A26604E00F838D3 /* indian-fighter-planes-wallpaper.jpg */,
 				F09DC2BE1A23C08300DDCBD5 /* globe-Vista-icon.png */,
 				F09DC2B81A23BE3E00DDCBD5 /* custom-reports.png */,
 				F09DC2C01A23C17400DDCBD5 /* contact-icon.png */,
 				F09DC2C41A23CA2300DDCBD5 /* title-afrotc.png */,
-				F09DC2C21A23CA1600DDCBD5 /* logo-air-force2.png */,
-				F09DC2BA1A23BF3300DDCBD5 /* app_type_newspaper_512px_GREY.png */,
 				F09DC2C61A23CA2D00DDCBD5 /* logo-mu.png */,
 				F09DC2CA1A23CABD00DDCBD5 /* logo-air-force.png */,
 				F09DC2C81A23CA3500DDCBD5 /* logo-afrotc-det440.png */,
-				F09DC2BC1A23BF9D00DDCBD5 /* MAW_icon-vector-blue_57_news_312x214.png */,
 				F09DC2B41A23BD9E00DDCBD5 /* calendar_icon1.png */,
-				F09DC2B61A23BDEB00DDCBD5 /* pen_paper_icon.jpg */,
 				F09DC2B21A23BCF000DDCBD5 /* roster.png */,
 				F09DC2B01A23BC4B00DDCBD5 /* MAW_icon-vector-blue_02_people_312x214.png */,
 				F09DC28D1A21A66500DDCBD5 /* Info.plist */,
@@ -233,6 +233,7 @@
 				TargetAttributes = {
 					F09DC2881A21A66500DDCBD5 = {
 						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = 4FNJNUQ3AD;
 					};
 					F09DC29D1A21A66500DDCBD5 = {
 						CreatedOnToolsVersion = 6.0;
@@ -266,21 +267,21 @@
 			files = (
 				F09DC2B31A23BCF000DDCBD5 /* roster.png in Resources */,
 				F09DC2C11A23C17400DDCBD5 /* contact-icon.png in Resources */,
+				F0A49DFB1A26604E00F838D3 /* indian-fighter-planes-wallpaper.jpg in Resources */,
 				F09DC2C71A23CA2D00DDCBD5 /* logo-mu.png in Resources */,
 				F09DC2B11A23BC4B00DDCBD5 /* MAW_icon-vector-blue_02_people_312x214.png in Resources */,
-				F09DC2C31A23CA1600DDCBD5 /* logo-air-force2.png in Resources */,
-				F09DC2B71A23BDEB00DDCBD5 /* pen_paper_icon.jpg in Resources */,
+				F0A49E001A2675C900F838D3 /* RosterPDF.pdf in Resources */,
 				F09DC2941A21A66500DDCBD5 /* Main.storyboard in Resources */,
 				F09DC2B91A23BE3E00DDCBD5 /* custom-reports.png in Resources */,
+				F0A49DFD1A2670A100F838D3 /* OPORD%2013.pdf in Resources */,
 				F09DC2C91A23CA3500DDCBD5 /* logo-afrotc-det440.png in Resources */,
 				F09DC2C51A23CA2300DDCBD5 /* title-afrotc.png in Resources */,
 				F09DC2991A21A66500DDCBD5 /* LaunchScreen.xib in Resources */,
-				F09DC2BB1A23BF3300DDCBD5 /* app_type_newspaper_512px_GREY.png in Resources */,
 				F09DC2BF1A23C08300DDCBD5 /* globe-Vista-icon.png in Resources */,
 				F09DC2B51A23BD9F00DDCBD5 /* calendar_icon1.png in Resources */,
-				F09DC2BD1A23BF9D00DDCBD5 /* MAW_icon-vector-blue_57_news_312x214.png in Resources */,
 				F09DC2CB1A23CABD00DDCBD5 /* logo-air-force.png in Resources */,
 				F09DC2961A21A66500DDCBD5 /* Images.xcassets in Resources */,
+				F0A49E021A267B3800F838D3 /* ROSTER.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,9 +433,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Mizzou AFROTC/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -442,9 +447,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Mizzou AFROTC/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "63d57c00-ae6a-4ea1-98f3-d5f22564ac9e";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
