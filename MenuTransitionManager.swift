@@ -25,7 +25,7 @@ class MenuTransitionManager: NSObject, UIViewControllerAnimatedTransitioning, UI
         
         // assign references to our menu view controller and the 'bottom' view controller from the tuple
         // remember that our menuViewController will alternate between the from and to view controller depending if we're presenting or dismissing
-        let menuViewController = !self.presenting ? screens.from as MenuViewController : screens.to as MenuViewController
+        let menuViewController = !self.presenting ? screens.from as! MenuViewController : screens.to as! MenuViewController
         let bottomViewController = !self.presenting ? screens.to as UIViewController : screens.from as UIViewController
         
         let menuView = menuViewController.view
@@ -37,13 +37,13 @@ class MenuTransitionManager: NSObject, UIViewControllerAnimatedTransitioning, UI
         }
         
         // add the both views to our view controller
-        container.addSubview(bottomView)
-        container.addSubview(menuView)
+        container!.addSubview(bottomView)
+        container!.addSubview(menuView)
         
         let duration = self.transitionDuration(transitionContext)
         
-        // perform the animation!
-        UIView.animateWithDuration(duration, delay: 0.0, usingSpringWithDamping: 0.7, initialSpringVelocity: 0.8, options: nil, animations: {
+        //perform the animation!
+        UIView.animateWithDuration(duration, delay: 0.0, usingSpringWithDamping: 0.7, initialSpringVelocity: 0.8, options: [], animations: {
             
             if (self.presenting){
                 self.onStageMenuController(menuViewController) // onstage items: slide in
@@ -58,7 +58,7 @@ class MenuTransitionManager: NSObject, UIViewControllerAnimatedTransitioning, UI
                 transitionContext.completeTransition(true)
                 
                 // bug: we have to manually add our 'to view' back http://openradar.appspot.com/radar?id=5320103646199808
-                UIApplication.sharedApplication().keyWindow.addSubview(screens.to.view)
+                UIApplication.sharedApplication().keyWindow!.addSubview(screens.to.view)
                 
         })
         
@@ -125,7 +125,7 @@ class MenuTransitionManager: NSObject, UIViewControllerAnimatedTransitioning, UI
     }
     
     // return how many seconds the transiton animation will take
-    func transitionDuration(transitionContext: UIViewControllerContextTransitioning) -> NSTimeInterval {
+    func transitionDuration(transitionContext: UIViewControllerContextTransitioning?) -> NSTimeInterval {
         return 0.5
     }
     

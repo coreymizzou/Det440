@@ -15,8 +15,8 @@ class rosterViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         let path = NSBundle.mainBundle().pathForResource("ROSTER", ofType: "csv")
-        var url = NSURL(fileURLWithPath: path!)
-        var request = NSURLRequest(URL: url!)
+        let url = NSURL(fileURLWithPath: path!)
+        let request = NSURLRequest(URL: url)
         self.roster.loadRequest(request)
         //self.roster.scalesPageToFit = true
 

@@ -18,13 +18,13 @@ class passwordViewController: UIViewController {
     @IBOutlet weak var txtPassword: UITextField!
     
     @IBAction func submit(sender: UIButton) {
-        var password:NSString = txtPassword.text
+        let password:NSString = txtPassword.text!
         
         if (password.isEqualToString("1522#") ) {
             self.performSegueWithIdentifier("passwordSegue", sender: self)
         }
         else {
-            var alertView:UIAlertView = UIAlertView()
+            let alertView:UIAlertView = UIAlertView()
             alertView.title = "Incorrect Password"
             alertView.message = "Please enter Password"
             alertView.delegate = self

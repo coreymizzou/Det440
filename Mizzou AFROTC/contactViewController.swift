@@ -16,7 +16,7 @@ class contactViewController: UIViewController, MFMailComposeViewControllerDelega
     
     @IBAction func sendEmail(sender: AnyObject) {
         var subjectText = ""
-        subjectText += Subject.text
+        subjectText += Subject.text!
         
         var BodyContent = Body
         
@@ -31,16 +31,16 @@ class contactViewController: UIViewController, MFMailComposeViewControllerDelega
         self.presentViewController(mc, animated: true, completion: nil)
     }
     
-    func mailComposeController(controller: MFMailComposeViewController!, didFinishWithResult result: MFMailComposeResult, error: NSError!) {
-        switch result.value {
-            case MFMailComposeResultCancelled.value:
+    func mailComposeController(controller: MFMailComposeViewController, didFinishWithResult result: MFMailComposeResult, error: NSError?) {
+        switch result.rawValue {
+            case MFMailComposeResultCancelled.rawValue:
                 NSLog("Mail Cancelled")
-            case MFMailComposeResultFailed.value:
+            case MFMailComposeResultFailed.rawValue:
                 NSLog("Mail Saved")
-            case MFMailComposeResultSent.value:
+            case MFMailComposeResultSent.rawValue:
                 NSLog("Mail Sent")
-            case MFMailComposeResultFailed.value:
-                NSLog("Mail Sent Failure: %@", [error.localizedDescription])
+            case MFMailComposeResultFailed.rawValue:
+                NSLog("Mail Sent Failure: %@", [error!.localizedDescription])
             default:
                 break
         }
